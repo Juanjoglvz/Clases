@@ -1,0 +1,35 @@
+
+
+
+Matriz de datos
+
+Very good drama although it appeared to have a few blank areas leaving the viewers to fill in the action for themselves. I can imagine life being this way for someone who can neither read nor write. This film simply smacked of the real world: the wife who is suddenly the sole supporter, the live-in relatives and their quarrels, the troubled child who gets knocked up and then, typically, drops out of school, a jackass husband who takes the nest egg and buys beer with it. 2 thumbs up.
+
+Bag of (1-4)-words
+
+- Poner todo en minuscula
+- Tokenizar -> Texto en lista de palabras (it's -> it 's)
+- Quitar signos de puntuación
+- Quitar stop-words -> Quitar palabras que no tienen significado (the, a(inglés), el, la, un)
+
+(opcional)
+- Stemming -> Quedarnos con su raíz. Ayudándolos -> ayud
+- Lemmatizing -> Quedarnos con la base. Ayudándolos -> ayudar
+
+- Vectorizar: Convertir textos preprocesados en matriz de datos
+    - CountVectorizer: Cuenta de cada palabra
+    - Tf-IdfVectorizer: Cuenta de cada palabra / Veces que aparece la palabra en total
+
+  Very  good digitally-restored windfall reble percival
+  4      2      0                   0       0       1
+  1      0      5                   0       1       0
+  
+  
+  
+  
+  corpus: lista de textos
+  grount_truth: etiquetas
+  
+  corpus[0]
+  
+  
